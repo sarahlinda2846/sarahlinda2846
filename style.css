@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(251, 214, 245);
+}
+
+nav li {
+    display: inline;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 925;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 0 0 15xp;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    transform: scale(1.1);
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto_preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.produto_descricao {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background: url("bg.jpg");
+    padding: 20px 0px;
+  }
+
+  form{
+    margin: 40xp  0;
+  }
+
+  form label{
+    display: block;
+    font-size: 20xp;
+    margin: 0 0 10xp;
+  }
+
+  form input, form textarea{
+  display: block;
+  margin: o o 20xp;
+  padding: 10xp 25xp;
+  width: 50%;
+  }
+
+  .enviar{
+    width: 40%;
+    padding: 15xp 0;
+    background-color: deeppink;
+    color: beige;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+  }
+
+.enviar:hover{
+    background-color: darkred;
+    cursor: pointer;
+    transform: scale(1.1);
+}
